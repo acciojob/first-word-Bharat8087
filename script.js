@@ -1,16 +1,13 @@
-function firstWord(s) {
-        if (!str || !str.includes(' ')) {
+function firstWord(str) {
+    if (!str || !str.includes(' ')) {
         return str;
     } else {
         return str.substring(0, str.indexOf(' '));
     }
-
 }
 
-  // your code here
 
-
-// Do not change the code below
-
-const s = prompt("Enter String:");
-alert(firstWord(s));
+console.log(firstWord('see and stop'));    
+console.log(firstWord(' Hello World!'));   
+console.log(firstWord('12345'));         
+console.log(firstWord(''));                
