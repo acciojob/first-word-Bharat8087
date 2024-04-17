@@ -1,9 +1,10 @@
 function firstWord(s) {
-    if (!s || !s.includes(' ')) {
-        return s;
+        if (!str || !str.includes(' ')) {
+        return str;
     } else {
-        return s.split(' ')[0];
+        return str.substring(0, str.indexOf(' '));
     }
+
 }
 
   // your code here
